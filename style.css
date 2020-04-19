@@ -117,6 +117,7 @@ img{
 }
 
 /*LEFT OFF VIDEO AT 30:30. looking pretty good so far. About half way done with the mobile version of the website. Just need to work on the "Podcast" and "Newsletter" porttion of the main container and I should be done with the top half. After that just need to work on the "Media" container and the footer and I should be done with the main page for the mobile version. From there, I'd just need to work on the desktop version which should take some time. Main page should probably be done around Tuesday, or even tomorrow if I'm able to get through it quickly and am able to stay focused. */
+/*BTW remember to update changes made on the project to GitHub and remmeber to use "the-marketpal" instead of "the-trading-journal" because it will not update GitHub. The website will be worked on from there from now on unless there will be small, experimental changes made to the website.*/
 .podcast{
 	grid-area: podcast;
 }
