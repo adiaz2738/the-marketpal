@@ -1,2 +1,2 @@
 # the-marketpal
- The website where all investors start
+ The website where all investors start. themarketpal.com gives investors a place where they can start their research for a stock they are interested in. Once they have gotten the fundamental research, they can go off and start their own additional research. Recommendations for stock analysis journals is more than welcome as it helps to expand the number of investors The MarketPal is able to help.

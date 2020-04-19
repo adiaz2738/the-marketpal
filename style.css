@@ -1,0 +1,127 @@
+/*CSS Variables*/
+
+:root{
+	--primary: #ddd;
+	--dark: #181818;
+	--shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html{
+	box-sizing: border-box;
+	font-family: "GeosansLight", Arial, sans-serif;
+	color: white;
+}
+
+body{
+	background: #ccc;
+	margin: 30px 50px;
+	line-height: 1.4;
+}
+
+i{
+	padding: 10px 0px;
+}
+
+.btn{
+	background-color: var(--dark);
+	color: white;
+	padding: 0.6rem 1.3rem;
+	text-decoration: none;
+	border: 0;
+}
+
+img{
+	width: 100%;
+}
+
+.wrapper{
+	display: grid;
+	grid-gap: 20px;
+}
+
+/*Header logo*/
+.logo{
+	display: flex;
+	width: 250px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+/*Navigation*/
+.navigation ul{
+	display: grid;
+	grid-gap: 20px;
+	padding: 0;
+	list-style: none;
+	grid-template-columns: 1fr;
+}
+
+.navigation a{
+	background-color: var(--dark);
+	display: block;
+	text-decoration: none;
+	padding: 0.8rem;
+	text-align: center;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	color: white;
+	letter-spacing: 5px;
+	box-shadow: var(--shadow);
+}
+
+.navigation a:hover{
+	background-color: var(--primary);
+	color: var(--dark);
+}
+
+/*Main Container*/
+.main-container{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas: 
+		'main-box'
+		'podcast'
+		'newsletter';
+}
+
+.main-box{
+	grid-area: main-box;
+	min-height: 400px;
+	background: url(img/header-img2.png);
+	background-size: cover;
+	background-position: center;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	box-shadow: var(--shadow);
+}
+
+.main-box h1{
+	font-size: 2.2rem;
+	margin: 0;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: 500;
+	text-shadow: var(--shadow);
+	text-decoration: underline;
+}
+
+.main-box p{
+	font-size: 1.5rem;
+	margin: 0;
+	color: white;
+	text-shadow: var(--shadow);
+}
+
+/*LEFT OFF VIDEO AT 30:30. looking pretty good so far. About half way done with the mobile version of the website. Just need to work on the "Podcast" and "Newsletter" porttion of the main container and I should be done with the top half. After that just need to work on the "Media" container and the footer and I should be done with the main page for the mobile version. From there, I'd just need to work on the desktop version which should take some time. Main page should probably be done around Tuesday, or even tomorrow if I'm able to get through it quickly and am able to stay focused. */
+.podcast{
+	grid-area: podcast;
+}
+
+.newsletter{
+	grid-area: newsletter;
+}
+
