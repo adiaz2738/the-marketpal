@@ -1,72 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The MarketPal</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" href="img/marketpal-logo.svg">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://kit.fontawesome.com/0c2674f1e9.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0c2674f1e9.js" crossorigin="anonymous"></script>
+    <title>The MarketPal</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="wrapper">
-		
-		<!-- Navigation -->
-		<header>
-			<div class="logo">
-				<img src="img/marketpal-logo-text.svg" alt="The MarketPal logo">
-			</div>
-			<nav class="navigation">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Journals</a></li>
-				</ul>
-			</nav>
-		</header>
 
-		<!-- Main Container -->
-		<section class="main-container">
-			<div class="main-box">
-				<h1>Your Research Starts Here</h1>
-				<p>All investors should research stocks.<br>Why not start here?</p>
-			</div>
-			<div class="side-box podcast">
-				<h2>New Podcast Episodes</h2>
-				<i class="fas fa-microphone-alt fa-2x"></i>
-				<br>
-				<a href="#" class="btn">Listen Now</a>
-			</div>
-			<div class="side-box newsletter">
-				<h2>Sign Up for Newsletter</h2>
-				<i class="far fa-newspaper fa-2x"></i>
-				<br>
-				<a href="#" class="btn">Sign Up</a>
-			</div>
-		</section>
-	
-	<!-- Media Container -->
-	<section class="media">
-		<img src="img/media-pic.png" alt="Research Photo">
-		<div>
-			<h2>View additional content from The MarketPal YouTube Channel as well as other content for you to watch.</h2>
-			<a href="#" class="btn">View Content</a>
-		</div>
-	</section>
+    <!-- Header -->
+   <header id="header-bar" class="header-grid">
+       <div class="bg-image"></div>
+       <div class="header-media">
+        <a href="#" title="Subscribe on YouTube"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#" title="Follow on Twitter"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#" title="Follow the Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+       </div>
+       <!-- I still need to create and add the social media links -->
+       <div class="logo-nav">
+           <div id="header-logo" class="header-logo">
+               <a href="index.html">
+                   <h1>The <span>Marketpal</span></h1>
+               </a>
+           </div>
+           <nav class="nav-bar">
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+                   <li><a href="journals.html">Stock Analysis</a></li>
+                </ul>
+            </nav>
+       </div>
+        <a href="contact.html" class="btn">Contact</a>
+    </header>
 
-	<!-- Footer -->
-	<footer>
-		<p>The Trading Journal &copy 2020</p>
-		<div class="social-icons">
-			<i class="fab fa-youtube"></i>
-			<i class="fab fa-instagram"></i>
-			<i class="fab fa-facebook-square"></i>
-		</div>
-	</footer>
-	<!-- Wrapper Ends Here -->
-	</div>
+    <div class="wrapper">
+        <!-- Calendar Info -->
+        <section id="showcase" class="grid">
+            <div class="showcase-content">
+            <h2>Check Out the Monthly Calendar</h2>
+            <p>Find information and updates on new YouTube videos, Podcast episodes, Analysis Journals, Portfolio Earnings, and Much more.</p>
+        </div>
+        <a href="#" class="btn">Check it Out</a>
+        </section>
+
+        <!-- Main Body -->
+        <main>
+            <section class="msg-container">
+                <h2>Every investor needs research.</h2>
+                <h2>So start it here!</h2>
+            </section>
+
+            <!-- Main Content -->
+            <section class="main-container">
+                <div class="main-box">
+                    <h2>New to Investing?</h2>
+                    <p>Learning to invest properly can be challenging when you don't know what to look for and how to find it. We've compiled a bunch of different resources from various places to help you find what you need to know in order to speed up the learning process.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="box2">
+                    <h2>Check out the Podcast</h2>
+                    <i class="fas fa-microphone fa-2x"></i>
+                    <a href="#" class="btn">Listen Now</a>
+                </div>
+                <div class="box3">
+                    <h2>Sign Up for the Weekly Newsletter</h2>
+                    <i class="far fa-newspaper fa-2x"></i>
+                    <a href="#" class="btn">Sign Up</a>
+                </div>
+            </section>
+    </div>
+
+    <!-- Footer content -->
+    <footer class="main-footer">
+        <div class="social-media">
+            <h2>Follow The MarketPal</h2>
+            <hr>
+            <div class="social-icons">
+                <div class="icon1">
+                    <i class="fab fa-youtube fa-2x"></i>
+                    <p>The MarketPal</p>
+                </div>
+                <div class="icon2">
+                    <i class="fab fa-twitter fa-2x"></i>
+                    <p>@themarketpal</p>
+                </div>
+                <div class="icon3">
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <p>themarketpal</p>
+                </div>
+            </div>
+        </div>
+        <p class="copyright-info">&copy The Marketpal 2020</p>
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <hr>
+            <p><span>email:</span><br>anthonydiaz917@gmail.com</p>
+            <a href="contact.html" class="btn">Message through website</a>
+        </div>
+    </footer>
+    </main>
 </body>
 </html>

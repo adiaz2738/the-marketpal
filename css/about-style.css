@@ -1,0 +1,46 @@
+body{
+    background: #e3e3e3;
+}
+
+main{
+    margin: 100px 0px;
+}
+
+/* br */
+br{
+    margin-bottom: 20px;
+}
+
+/* h1 text */
+main h2{
+    display: block;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 2px white;
+}
+
+/* box */
+.box-wrapper{
+    display: grid;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+.contact-us{
+    display: grid;
+    width: 1000px;
+    height: 550px;
+    background-color: white;
+    border: black 1px solid;
+    box-shadow: 2px 2px 10px #333;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.box-wrapper p{
+    font-family: 'Arial';
+    font-size: 20px;
+}
