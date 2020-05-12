@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c2674f1e9.js" crossorigin="anonymous"></script>
     <title>The MarketPal</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index-style.css">
 </head>
 <body>
 
@@ -36,43 +36,81 @@
         <a href="contact.html" class="btn">Contact</a>
     </header>
 
-    <div class="wrapper">
-        <!-- Calendar Info -->
-        <section id="showcase" class="grid">
-            <div class="showcase-content">
-            <h2>Check Out the Monthly Calendar</h2>
-            <p>Find information and updates on new YouTube videos, Podcast episodes, Analysis Journals, Portfolio Earnings, and Much more.</p>
+    
+    <main>
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a> by TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+            "symbols": [
+            {
+                "proName": "FOREXCOM:SPXUSD",
+                "title": "S&P 500"
+            },
+            {
+                "proName": "FOREXCOM:NSXUSD",
+                "title": "Nasdaq 100"
+            },
+            {
+                "description": "DOW",
+                "proName": "TVC:DJI"
+            },
+            {
+                "description": "Gold",
+                "proName": "OANDA:XAUUSD"
+            },
+            {
+                "description": "Crude Oil",
+                "proName": "TVC:USOIL"
+            }
+            ],
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "locale": "en"
+        }
+            </script>
         </div>
-        <a href="#" class="btn">Check it Out</a>
-        </section>
+        <!-- TradingView Widget END -->
 
-        <!-- Main Body -->
-        <main>
-            <section class="msg-container">
-                <h2>Every investor needs research.</h2>
-                <h2>So start it here!</h2>
+        <div class="wrapper">
+            <!-- Calendar Info -->
+            <section id="showcase" class="grid">
+                <div class="showcase-content">
+                <h2>Check Out the Monthly Calendar</h2>
+                <p>Find information and updates on new YouTube videos, Podcast episodes, Analysis Journals, Portfolio Earnings, and Much more.</p>
+            </div>
+            <a href="#" class="btn">Check it Out</a>
             </section>
 
-            <!-- Main Content -->
-            <section class="main-container">
-                <div class="main-box">
-                    <h2>New to Investing?</h2>
-                    <p>Learning to invest properly can be challenging when you don't know what to look for and how to find it. We've compiled a bunch of different resources from various places to help you find what you need to know in order to speed up the learning process.</p>
-                    <a href="#" class="btn">Read More</a>
-                </div>
-                <div class="box2">
-                    <h2>Check out the Podcast</h2>
-                    <i class="fas fa-microphone fa-2x"></i>
-                    <a href="#" class="btn">Listen Now</a>
-                </div>
-                <div class="box3">
-                    <h2>Sign Up for the Weekly Newsletter</h2>
-                    <i class="far fa-newspaper fa-2x"></i>
-                    <a href="#" class="btn">Sign Up</a>
-                </div>
-            </section>
-    </div>
+            <!-- Main Body -->
+            
+                <section class="msg-container">
+                    <h2>Every investor needs research.</h2>
+                    <h2>So start it here!</h2>
+                </section>
 
+                <!-- Main Content -->
+                <section class="main-container">
+                    <div class="main-box">
+                        <h2>New to Investing?</h2>
+                        <p>Learning to invest properly can be challenging when you don't know what to look for and how to find it. We've compiled a bunch of different resources from various places to help you find what you need to know in order to speed up the learning process.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="box2">
+                        <h2>Check out the Podcast</h2>
+                        <i class="fas fa-microphone fa-2x"></i>
+                        <a href="#" class="btn">Listen Now</a>
+                    </div>
+                    <div class="box3">
+                        <h2>Sign Up for the Weekly Newsletter</h2>
+                        <i class="far fa-newspaper fa-2x"></i>
+                        <a href="#" class="btn">Sign Up</a>
+                    </div>
+                </section>
+        </div>
+    </main>
     <!-- Footer content -->
     <footer class="main-footer">
         <div class="social-media">
@@ -101,6 +139,5 @@
             <a href="contact.html" class="btn">Message through website</a>
         </div>
     </footer>
-    </main>
 </body>
 </html>
