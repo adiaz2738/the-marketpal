@@ -28,6 +28,11 @@ img{
     color: #333;
 }
 
+.tradingview-widget-container{
+    display: block;
+    background-color: black;
+}
+
 /* Header */
 #header-logo{
     display: block;
