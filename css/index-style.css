@@ -321,7 +321,7 @@ img{
     font-weight: 400;
     color: white;
     padding: 10px 0px 0px 0px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .box2 .btn{
@@ -348,7 +348,7 @@ img{
     font-weight: 400;
     color: white;
     padding: 10px 0px 0px 0px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .box3 .btn{
