@@ -347,8 +347,8 @@ img{
     font-size: 25px;
     font-weight: 400;
     color: white;
-    padding: 10px 0px 0px 0px;
-    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
 }
 
 .box3 .btn{
