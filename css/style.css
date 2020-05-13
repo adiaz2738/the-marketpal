@@ -323,14 +323,15 @@ img{
     /* main content */
     main{
         grid-area: main;
+        display: grid;
     }
 
     /* Desktop footer content */
     .main-footer{
         grid-area: main-footer;
         display: grid;
+        width: 100%;
         height: 250px;
-        align-self: start;
         grid-template-columns: 1fr 1fr 1fr;
         background-color: black;
         font-family: "Lato";
