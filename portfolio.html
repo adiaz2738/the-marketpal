@@ -265,6 +265,7 @@
         <hr class="page-divider">
         <!-- Watchlists section -->
         <section class="watchlists-grid">
+            <!-- Investment watchlist -->
             <div class="investment-watchlist">
                 <h2>Investments Watchlist</h2>
                 <div class="watchlist-invest-stock">
@@ -286,6 +287,7 @@
                         </div>
                         <!-- TradingView Widget END -->
                 </div>
+                <hr class="watchlist-stock-divider">
                 <div class="watchlist-invest-stock">
                     <h3>AAPL</h3>
                     <h4>Apple, Inc.</h4>
@@ -305,6 +307,7 @@
                     </div>
                     <!-- TradingView Widget END -->
                 </div>
+                <hr class="watchlist-stock-divider">
                 <div class="watchlist-invest-stock">
                     <h3>NVDA</h3>
                     <h4>NVIDIA Corporation</h4>
@@ -324,6 +327,7 @@
                     </div>
                     <!-- TradingView Widget END -->
                 </div>
+                <hr class="watchlist-stock-divider">
                 <div class="watchlist-invest-stock">
                     <h3>PYPL</h3>
                     <h4>PayPal Holdings, Inc.</h4>
@@ -343,6 +347,7 @@
                     </div>
                     <!-- TradingView Widget END -->
                 </div>
+                <hr class="watchlist-stock-divider">
                 <div class="watchlist-invest-stock">
                     <h3>NKE</h3>
                     <h4>NIKE, Inc.</h4>
@@ -364,8 +369,30 @@
                 </div>
                 <!-- Add more stocks to the investments watchlist here -->
             </div>
-            <div class="trade-watchlist">
+            
+            <!-- Trading watchlist -->
+            <div class="trading-watchlist">
                 <h2>Trades Watchlist</h2>
+                <div class="watchlist-trade-stock">
+                    <h3>SQ</h3>
+                    <h4>Square, Inc.</h2>
+                        <!-- TradingView Widget BEGIN -->
+                        <div class="tradingview-widget-container">
+                            <div class="tradingview-widget-container__widget"></div>
+                            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/SQ/" rel="noopener" target="_blank"><span class="blue-text">SQ Quotes</span></a> by TradingView</div>
+                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+                            {
+                            "symbol": "SQ",
+                            "width": "100%",
+                            "colorTheme": "dark",
+                            "isTransparent": true,
+                            "locale": "en"
+                        }
+                            </script>
+                        </div>
+                        <!-- TradingView Widget END -->
+                </div>
+                <hr class="watchlist-stock-divider">
                 <div class="watchlist-trade-stock">
                     <h3>TWTR</h3>
                     <h4>Twitter, Inc.</h4>
@@ -385,8 +412,27 @@
                     </div>
                     <!-- TradingView Widget END -->
                 </div>
-                <!-- Add more stocks to the trades wathclist here -->
+                <hr class="watchlist-stock-divider">
+                <div class="watchlist-invest-stock">
+                    <h3>SCHW</h3>
+                    <h4>The Charcles Schwab Corporation</h4>
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NYSE-SCHW/" rel="noopener" target="_blank"><span class="blue-text">SCHW Quotes</span></a> by TradingView</div>
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+                        {
+                        "symbol": "NYSE:SCHW",
+                        "width": "100%",
+                        "colorTheme": "dark",
+                        "isTransparent": true,
+                        "locale": "en"
+                    }
+                        </script>
+                    </div>
+                    <!-- TradingView Widget END -->
                 </div>
+                <!-- Add more stocks to the investments watchlist here -->
             </div>
         </section>
     </main>
