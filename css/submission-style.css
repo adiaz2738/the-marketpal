@@ -9,6 +9,10 @@ body{
     background: white;
 }
 
+main{
+    height: 800px;
+}
+
 /* h1 text */
 h2{
     display: block;

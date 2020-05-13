@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c2674f1e9.js" crossorigin="anonymous"></script>
-    <title>Submissions</title>
-    <link rel="stylesheet" href="css/submission-style.css">
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -32,17 +31,12 @@
                 </ul>
             </nav>
         </div>
-        <a href="support.html" class="btn">Support</a>
+        <a href="contact.html" class="btn">Contact</a>
     </header>
 
     <!-- Main content -->
     <main>
-        <!-- Thank you message and return button -->
-        <h2>Thank you for your submission!</h2>
-        <section class="contact-us">
-            <h2>Your submission will replied to as soon as possible.<br><span>Would you like to go back to the home page?</span></h2>
-            <a class="btn" href="index.html">Go back</a>
-        </section>
+        
     </main>
 
         <!-- Footer content -->

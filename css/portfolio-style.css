@@ -2,6 +2,12 @@
     padding-bottom: 20px;
 }
 
+.wrapper{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Background image */
 .bg-image{
 	position: fixed;
@@ -159,7 +165,7 @@
     .stock-list{
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         margin: 20px;
         justify-content: center;
     }
