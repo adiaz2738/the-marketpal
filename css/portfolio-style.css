@@ -1,5 +1,17 @@
-.page-divider{
-    padding-bottom: 20px;
+#page-divider{
+    width: 90%;
+    height: 1px;
+    margin-bottom: 20px;
+    border: 0;
+    background-color: gray;
+}
+
+.watchlist-divider{
+    width: 270px;
+    height: 1px;
+    border: 0;
+    background-color: white;
+    margin: 0 auto;
 }
 
 .wrapper{
@@ -8,18 +20,6 @@
     margin: 0 auto;
 }
 
-/* Background image */
-.bg-image{
-	position: fixed;
-	background: white url('../img/dual-chart-photo.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 3000px;
-	z-index: -1;
-	opacity: 0.5;
-}
 
 /* Page heading text */
 .port-heading{
@@ -32,7 +32,7 @@
     font-size: 35px;
     font-weight: 500;
     text-shadow: 2px 2px 2px white;
-    padding: 10px 0px;
+    padding: 50px 0px 10px 0px;
 }
 
 .stock-list{
