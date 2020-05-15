@@ -1,16 +1,11 @@
-main{
-    height: 900px;
-}
-
 .wrapper{
     display: block;
-    width: 800px;
-    margin: 0 auto;
+    margin: 0px 40px;
+    padding-bottom: 50px;
 }
 
 .support-text{
     display: flex;
-    width: 500px;
     height: 100px;
     margin: 0 auto;
 }
@@ -55,7 +50,6 @@ main{
 
 .support-button-container{
     display: block;
-    width: 800px;
     height: 200px;
     border: black 1px solid;
 }
@@ -74,4 +68,19 @@ main{
 
 .support-button{
     padding-left: 20px;
+}
+
+@media only screen and (min-width: 1000px){
+    .wrapper{
+        display: block;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .support-button-container{
+        display: block;
+        width: 800px;
+        height: 200px;
+        border: black 1px solid;
+    }
 }
