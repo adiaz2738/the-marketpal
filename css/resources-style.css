@@ -1,0 +1,55 @@
+main{
+    height: 800px;
+}
+
+.wrapper{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.resources{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+}
+
+.resource-info{
+    display: grid;
+    height: 160px;
+    grid-template-columns: 80% 20%;
+    grid-template-areas:
+    'resource-description resource-img';
+    border: black 1px solid;
+}
+
+.resource-description{
+    grid-area: resource-description;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px 15px 15px;
+}
+
+.resource-description h3{
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 300px;
+}
+
+.resource-description p{
+    font-family: "Georgia";
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.resource-img{
+    grid-area: resource-img;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-self: center;
+    align-self: center;
+    padding: 5px;
+    justify-self: end;
+}
