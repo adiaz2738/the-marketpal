@@ -452,16 +452,21 @@ img{
     }
 
     /* Navigation bar */
+    .nav-bar{
+        width: 600px;
+        margin: 0 auto;
+    }
+
     .nav-bar ul{
         display: grid;
-        grid-template-columns: 150px 150px 150px 150px 150px;
+        grid-template-columns: repeat(5, auto);
         justify-content: center;
     }
 
     .nav-bar a{
         display: block;
         background-color: black;
-        padding: 10px 0px;
+        padding: 10px;
         text-align: center;
         font-family: 'Lato';
         font-size: 18px;
