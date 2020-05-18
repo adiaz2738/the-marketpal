@@ -1,0 +1,96 @@
+.wrapper{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.analysis-container hr{
+    display: flex;
+    width: 150px;
+    height: 1px;
+    margin: 40px 0px;
+    border: 0;
+    background-color: gray;
+    align-self: center;
+}
+
+.content-overview-container{
+    display: block;
+    margin: 40px 0px;
+}
+
+.content-overview-container h3{
+    font-family: "Lato";
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.content-overview-container p{
+    font-family: "Georgia";
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.analysis-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.analysis-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.analysis-content p{
+    font-family: "Georgia";
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.analysis-content h3{
+    font-family: "Georgia";
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 0px 10px 0px;
+    text-align: center;
+}
+
+.analysis-content h4{
+    font-family: "Georgia";
+    font-size: 40px;
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+}
+
+.analysis-content a{
+    font-family: "Georgia";
+    font-size: 18px;
+    padding-bottom: 10px 0px;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+
+@media only screen and (min-width: 1000px){
+
+    /* Container for description about the content styles */
+    .content-overview-container{
+        display: block;
+        width: 800px;
+        padding: 40px 0px;
+        margin: 0 auto;
+    }
+
+    /* Container for main content styles */
+    .analysis-container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+}

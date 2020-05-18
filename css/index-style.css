@@ -205,7 +205,9 @@ img{
     text-decoration: underline;
 }
 
+/* button currently hidden */
 .contact-info .btn{
+    display: none;
     padding: 20px;
     width: max-content;
 }
