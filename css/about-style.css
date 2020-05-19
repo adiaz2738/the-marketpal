@@ -60,7 +60,12 @@ main h2{
     .contact-us{
         display: block;
         max-width: 800px;
-        height: 550px;
         margin: 0 auto;
+    }
+
+    .box-wrapper img{
+        display: block;
+        width: 450px;
+        height: 350px;
     }
 }

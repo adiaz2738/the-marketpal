@@ -1,0 +1,120 @@
+.wrapper{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.analysis-container hr{
+    display: flex;
+    width: 250px;
+    height: 1px;
+    margin: 40px 0px;
+    border: 0;
+    background-color: gray;
+    align-self: center;
+}
+
+.analysis-container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+
+.analysis-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.analysis-content p{
+    font-family: "Georgia";
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.analysis-content h3{
+    font-family: "Georgia";
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 0px 10px 0px;
+    text-align: center;
+}
+
+.analysis-content h4{
+    font-family: "Georgia";
+    font-size: 40px;
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+}
+
+.img-container{
+    display: block;
+    background-color: black;
+}
+
+.img-container img{
+    display: block;
+    margin: 0 auto;
+}
+
+.analysis-description{
+    display: block;
+    padding: 20px 0px 40px 0px;
+}
+
+.analysis-description h3{
+    font-family: "Georgia";
+    font-size: 20px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.analysis-description img{
+    display: block;
+    width: 400px;
+    height: 350px;
+    padding: 20px 0px;
+}
+
+.analysis-description p{
+    font-family: "Georgia";
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.btn{
+    display: inline-block;
+    font-family: "Georgia";
+    font-size: 18px;
+    color: black;
+    border: black 1px solid;
+    background-color: #e3e3e3;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1000px){
+
+    /* Container for main content styles */
+    .analysis-container{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0px;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .analysis-container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .img-container img{
+        display: block;
+        width: 500px;
+        height: 150px;
+        margin: 0 auto;
+    }
+}
