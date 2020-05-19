@@ -1,25 +1,44 @@
-#page-divider{
+.page-divider-container{
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.page-divider-container #page-divider{
     width: 90%;
     height: 1px;
-    margin-bottom: 20px;
     border: 0;
     background-color: gray;
+    margin: 0 auto;
 }
 
 .watchlist-divider{
     width: 270px;
     height: 1px;
     border: 0;
-    background-color: white;
+    background-color: gray;
     margin: 0 auto;
 }
 
-.wrapper{
+.watchlist-stock-divider{
+    width: 270px;
+    height: 1px;
+    border: 0;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+{
     display: block;
     width: 90%;
     margin: 0 auto;
 }
 
+/* Widget styling inside wrapper */
+ .tradingview-widget-container{
+    display: block;
+    background-color: white;
+}
 
 /* Page heading text */
 .port-heading{
@@ -45,24 +64,24 @@
 
 .stock-container{
     display: grid;
-    background-color: black;opacity: 0.9;
-    height: 200px;
     justify-content: center;
     padding: 10px 0px;
+    border-radius: 5px;
+    border: black 1px solid;
 }
 
 .stock-container h2{
     font-family: "Lato";
     font-size: 25px;
     font-weight: 300px;
-    color: white;
+    color: black;
 }
 
 .stock-container h3{
     font-family: "Lato";
     font-size: 15px;
     font-weight: 300px;
-    color: white;
+    color: black;
 }
 
 /* Watchlist section */
@@ -86,7 +105,8 @@
     display: block;
     height: 450px;
     grid-template-columns: 300px;
-    background-color: black; opacity: .9;
+    border: black 1px solid;
+    border-radius: 5px;
     padding: 20px 100px;
     justify-content: center;
     overflow: scroll;
@@ -99,7 +119,7 @@
     font-family: "Lato";
     font-size: 25px;
     font-weight: 500;
-    color: white;
+    color: black;
     padding-bottom: 20px;
 }
 
@@ -111,13 +131,13 @@
     font-family: "Lato";
     font-size: 15px;
     font-weight: 300px;
-    color: white;
+    color: black;
 }
 .watchlist-invest-stock h4{
     font-family: "Lato";
     font-size: 25px;
     font-weight: 300px;
-    color: white;
+    color: black;
 }
 
 /* Investing watchlist div container */
@@ -126,7 +146,8 @@
     display: block;
     height: 450px;
     grid-template-columns: 300px;
-    background-color: black; opacity: .9;
+    border: black 1px solid;
+    border-radius: 5px;
     padding: 20px 100px;
     justify-content: center;
     overflow: scroll;
@@ -139,7 +160,7 @@
     font-family: "Lato";
     font-size: 25px;
     font-weight: 500;
-    color: white;
+    color: black;
     padding-bottom: 20px;
 }
 
@@ -151,19 +172,20 @@
     font-family: "Lato";
     font-size: 15px;
     font-weight: 300px;
-    color: white;
+    color: black;
 }
 .watchlist-trade-stock h4{
     font-family: "Lato";
     font-size: 25px;
     font-weight: 300px;
-    color: white;
+    color: black;
 }
 
 
 @media only screen and (min-width: 1000px){
     .stock-list{
         display: grid;
+        height: auto;
         grid-gap: 20px;
         grid-template-columns: repeat(4, 1fr);
         margin: 20px;
@@ -175,7 +197,7 @@
         display: grid;
         grid-gap: 20px;
         height: 600px;
-        grid-template-columns: repeat(2, 500px);
+        grid-template-columns: repeat(2, minmax(auto, 500px));
         margin: 0px 20px 20px 20px;
         justify-content: center;
         grid-template-areas:
@@ -188,7 +210,6 @@
         display: block;
         height: auto;
         grid-template-columns: 300px;
-        background-color: black; opacity: .9;
         padding: 20px 100px;
         justify-content: center;
         overflow: scroll;
@@ -200,7 +221,6 @@
         display: block;
         height: auto;
         grid-template-columns: 300px;
-        background-color: black; opacity: .9;
         padding: 20px 100px;
         justify-content: center;
         overflow: scroll;

@@ -33,6 +33,12 @@ img{
     background-color: black;
 }
 
+.wrapper{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Header */
 #header-logo{
     display: block;

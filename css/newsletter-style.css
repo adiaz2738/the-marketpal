@@ -2,12 +2,6 @@ main{
     height: 800px;
 }
 
-.wrapper{
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-}
-
 .newsletter-description{
     display: block;
     width: 650px;
