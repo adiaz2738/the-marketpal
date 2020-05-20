@@ -1,0 +1,82 @@
+main{
+    height: 800px;
+}
+
+.podcast-overview{
+    display: block;
+    margin: 20px auto;
+
+}
+
+.banner{
+    display: block;
+    padding-bottom: 20px;
+}
+
+.banner img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.podcast-info{
+    display: block;
+    margin: 0 auto;
+}
+
+.podcast-info h3{
+    font-family: "Lato";
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.podcast-info p{
+    font-family: "Georgia";
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-link{
+    display: inline-block;
+    font-family: "Georgia";
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: black 1px solid;
+    padding: 20px;
+}
+
+.newsletter-link:hover{
+    color: white;
+    background-color: gray;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+    
+    .podcast-overview{
+        width: 1000px;
+    }
+
+    .banner{
+        display: block;
+        width: 100%;
+        height: 250px;
+    }
+
+    .podcast-info{
+        display: block;
+        margin: 0 auto;
+    }
+}
