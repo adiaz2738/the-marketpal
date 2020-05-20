@@ -1,10 +1,54 @@
-{
-    display: block;
-    width: 90%;
+.button{
+    background: none;
+    width: auto;
+    height: auto;
+    border: 0;
     margin: 0 auto;
+    font-family: "Georgia";
+    font-size: 20px;
+    text-decoration: underline;
 }
 
-.analysis-container hr{
+.button:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content{
+    background-color: #f4f4f4;
+    margin: 1% auto;
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 7px 20px 0 rgba(0, 0, 0, 0.651);
+}
+
+.closeBtn{
+    color: #ccc;
+    float: right;
+    font-size: 40px;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Main modal content */
+.analysis-modal-container hr{
     display: flex;
     width: 250px;
     height: 1px;
@@ -14,26 +58,37 @@
     align-self: center;
 }
 
-.analysis-container{
+.analysis-modal-container{
     display: flex;
     flex-direction: column;
     padding: 40px 0px;
 }
 
-.analysis-content{
+.analysis-modal-container .btn{
+    display: inline-block;
+    font-family: "Georgia";
+    font-size: 18px;
+    color: black;
+    border: black 1px solid;
+    background-color: #e3e3e3;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.analysis-modal-content{
     display: flex;
     flex-direction: column;
     align-self: center;
 }
 
-.analysis-content p{
+.analysis-modal-content p{
     font-family: "Georgia";
     font-size: 15px;
     padding-bottom: 10px;
     text-align: center;
 }
 
-.analysis-content h3{
+.analysis-modal-content h3{
     font-family: "Georgia";
     font-size: 16px;
     font-weight: 300;
@@ -41,7 +96,7 @@
     text-align: center;
 }
 
-.analysis-content h4{
+.analysis-modal-content h4{
     font-family: "Georgia";
     font-size: 40px;
     padding: 0px 0px 15px 0px;
@@ -83,21 +138,11 @@
     line-height: 35px;
 }
 
-.btn{
-    display: inline-block;
-    font-family: "Georgia";
-    font-size: 18px;
-    color: black;
-    border: black 1px solid;
-    background-color: #e3e3e3;
-    padding: 20px;
-    margin: 0 auto;
-}
 
 @media only screen and (min-width: 1000px){
 
     /* Container for main content styles */
-    .analysis-container{
+    .analysis-modal-container{
         display: flex;
         flex-direction: column;
         padding: 40px 0px;
@@ -105,7 +150,7 @@
         margin: 0 auto;
     }
 
-    .analysis-container{
+    .analysis-modal-container{
         display: flex;
         flex-direction: column;
         padding-bottom: 40px;

@@ -7,6 +7,7 @@
     <title>Stock Analysis</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/analysis-style.css">
+    <link rel="stylesheet" href="css/analysis-modal-style.css">
 </head>
 <body>
     <!-- Header -->
@@ -43,28 +44,79 @@
                 <p>Every other week there will be a new analysis on a stock that hasn't been analyzed before on the website. Information about these analysis papers and what they're all about can be found in the "About" page. It's a short read and it's recommended you look through it so you understand what this research is all about and how it can help you.</p>
             </section>
             <!-- Main page content -->
+            <!-- ATVI stock analysis post -->
             <section class="analysis-container">
                 <div class="analysis-content">
                     <p>5/18/2020</p>
                     <h3>NASDAQ: ATVI</h3>
                     <h4>Activision Blizzard, Inc.</h4>
-                    <a href="analysis-links/atvi.html" class="link">Read More</a>
+                    
+                </div>
+                    <button id="modalBtn" class="button">Read More</button>
+
+                    <div id="simpleModal" class="modal">
+                        <div class="modal-content">
+                            <span class="closeBtn">&times;</span>
+                            
+                            <!-- Main modal content -->
+                            <section class="analysis-modal-container">
+                                <div class="analysis-modal-content">
+                                    <p>5/18/2020</p>
+                                    <h3>ATVI</h3>
+                                    <h4>Activision Blizzard, Inc.</h4>
+                                    <div class="img-container">
+                                        <img src="../img/activision-blizzard-logo.png" alt="Activision Blizzard">
+                                    </div>
+                                </div>
+                                <hr>
+                                <section class="analysis-description">
+                                    <h3>Comments on the stock:</h3>
+                                    <p>As it currently stands, ATVI is seems to be a very solid investment for a long term hold and would be a great addition to someone's portfolio. However, the valuation currently seems a bit high, but who knows when we could see a drop in price.</p>
+                                    <img src="../img/atvi-criteria.svg" alt="Activision Blizzard">
+                                </section>
+                                <a href="pdfs/2020Q1_alphabet_earnings_release.pdf" class="btn" download>Download PDF of analysis paper</a>
+                            </section>
+                        </div>
+
+                    <script src="js-files/analysis-modal-script.js"></script>
                 </div>
                 <hr>
-                <div class="analysis-content">
-                    <p>5/18/2020</p>
-                    <h3>NASDAQ: NVDA</h3>
-                    <h4>NVIDIA Corporation</h4>
-                    <a href="analysis-links/nvda.html" class="link">Read More</a>
-                </div>
-                <hr>
-                <div class="analysis-content">
-                    <p>5/18/2020</p>
-                    <h3>NYSE: FL</h3>
-                    <h4>Foot Locker, Inc.</h4>
-                    <a href="analysis-links/fl.html" class="link">Read More</a>
-                </div>
-                <hr>
+                <section class="analysis-container">
+                    <div class="analysis-content">
+                        <p>5/18/2020</p>
+                        <h3>NASDAQ: ATVI</h3>
+                        <h4>Activision Blizzard, Inc.</h4>
+                        
+                    </div>
+                        <button id="modalBtn" class="button">Read More</button>
+    
+                        <div id="simpleModal" class="modal">
+                            <div class="modal-content">
+                                <span class="closeBtn">&times;</span>
+                                
+                                <!-- Main modal content -->
+                                <section class="analysis-modal-container">
+                                    <div class="analysis-modal-content">
+                                        <p>5/18/2020</p>
+                                        <h3>ATVI</h3>
+                                        <h4>Activision Blizzard, Inc.</h4>
+                                        <div class="img-container">
+                                            <img src="../img/activision-blizzard-logo.png" alt="Activision Blizzard">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <section class="analysis-description">
+                                        <h3>Comments on the stock:</h3>
+                                        <p>As it currently stands, ATVI is seems to be a very solid investment for a long term hold and would be a great addition to someone's portfolio. However, the valuation currently seems a bit high, but who knows when we could see a drop in price.</p>
+                                        <img src="../img/atvi-criteria.svg" alt="Activision Blizzard">
+                                    </section>
+                                    <a href="pdfs/2020Q1_alphabet_earnings_release.pdf" class="btn" download>Download PDF of analysis paper</a>
+                                </section>
+                            </div>
+    
+                        <script src="js-files/analysis-modal-script.js"></script>
+                    </div>
+                    <hr>
                 <!-- 
                     <div class="analysis-content">
                         <p>5/18/2020</p>
