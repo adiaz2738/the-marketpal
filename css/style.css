@@ -30,7 +30,7 @@ img{
 
 .tradingview-widget-container{
     display: block;
-    background-color: black;
+    background-color: white;
 }
 
 .wrapper{
@@ -239,6 +239,7 @@ img{
 
     #header-bar{
         background-color: black;
+        padding-bottom: 0px;
     }
 
     /* Header media icons */

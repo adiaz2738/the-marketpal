@@ -6,6 +6,18 @@
     /* Add color to the background of the grid and adjust for desktop version of the page */
 }
 
+.section-description{
+    display: block;
+    width: auto;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.section-description h3{
+    font-family: "Lato";
+    font-size: 30px;
+}
+
 .resource-info{
     display: grid;
     height: auto;
