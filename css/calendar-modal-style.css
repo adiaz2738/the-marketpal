@@ -33,6 +33,13 @@
     width: 50%;
     height: 80%;
     box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
+    animation-name: modalopen;
+    animation-duration: .5s;
+}
+
+@keyframes modalopen{
+    from{opacity: 0}
+    to {opacity: 1}
 }
 
 .closeBtn{
