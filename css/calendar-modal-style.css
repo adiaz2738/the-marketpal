@@ -1,0 +1,69 @@
+.button{
+    background: none;
+    border: white 1px solid;
+    font-family: "Georgia";
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    background-color: gray;
+}
+
+.button:hover{
+    color: black;
+    cursor: pointer;
+    background-color: #333;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content{
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    width: 50%;
+    height: 80%;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.8);
+}
+
+.closeBtn{
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.google-calendar-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin: 40px auto;
+}
+
+.google-calendar-container h3{
+    font-family: "Georgia";
+    font-size: 25px;
+    color: black;
+    width: auto;
+    height: 50px;
+    margin: auto;
+}
+
+.google-calendar-insert{
+    display: block;
+    margin: 0 auto;
+}

@@ -6,6 +6,7 @@
     <script src="https://kit.fontawesome.com/0c2674f1e9.js" crossorigin="anonymous"></script>
     <title>The MarketPal</title>
     <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/calendar-modal-style.css">
     <script data-ad-client="ca-pub-7533576871166781" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
@@ -13,9 +14,10 @@
     <!-- Header -->
    <header id="header-bar" class="header-grid">
        <div class="header-media">
-           <a href="https://www.youtube.com/channel/UCYwnLf_Unhw_YWtCS8CZBLw?guided_help_flow=3&disable_polymer=true" title="Subscribe on YouTube" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+           <a href="https://www.youtube.com/channel/UCYwnLf_Unhw_YWtCS8CZBLw?guided_help_flow=3&disable_polymer=true" title="Subscribe on YouTube" target="_blank" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
            <a href="https://twitter.com/themarketpal" title="Follow on Twitter" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-           <a href="https://www.instagram.com/themarketpal/" title="Follow the Instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+           <a href="https://www.instagram.com/themarketpal/" title="Follow the Instagram" target="_blank" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+           <a href="https://www.facebook.com/The-MarketPal-101010118300279/?modal=admin_todo_tour" title="Follow the Facebook page" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
         </div>
         <!-- I still need to create and add the social media links -->
         <div class="logo-nav">
@@ -89,30 +91,42 @@
             
             <!-- Main Body -->
             
-                <section class="msg-container">
-                    <h2>Every investor needs research.</h2>
-                    <h2>So start it here!</h2>
-                </section>
+            <section class="msg-container">
+                <h2>Every investor needs research.</h2>
+                <h2>So start it here!</h2>
+            </section>
 
-                <!-- Main Content -->
-                <section class="main-container">
-                    <div class="main-box">
-                        <h2>New to Investing?</h2>
-                        <p>Learning to invest properly can be challenging when you don't know where and how to find the information you need. Speech up the learning process by using the resouces I've listed from various sources to bring the information to you so you don't waste time having to figure out where to find what you need.</p>
-                        <a href="resources.html" class="btn">Read More</a>
+            <!-- Main Content -->
+            <section class="main-container">
+                <div class="main-box">
+                    <h2>Check out the Monthly Calendar</h2>
+                    <p>The monthly calendar includes events such as, company earnings in the portfolio, times for scheduled posts and updates, and more.</p>
+                    <button id="modalBtn" class="button">Check it Out</button>
+                    
+                    <div id="simpleModal" class="modal">
+                        <div class="modal-content">
+                            <span class="closeBtn">&times;</span>
+                            <div class="google-calendar-container">
+                                <h3>Monthly Calendar</h3>
+                                <iframe class="google-calendar-insert" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=bmZuN2VsamQzbmM5b2JkdXQ1bTh2bDR1YW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZmxjM2NsdDlub3FvZG1scWlkdWdsYnZwY3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;color=%2333B679&amp;title=The%20MarketPal%20Monthly%20Calendar" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box2">
-                        <h2>Check out the Podcast</h2>
-                        <h2>(Coming Soon)</h2>
-                        <i class="fas fa-microphone fa-2x"></i>
-                        <a href="content.html" class="btn">Learn More</a>
-                    </div>
-                    <div class="box3">
-                        <h2>Check out the Monthly Calendar</h2>
-                        <i class="far fa-calendar-alt fa-2x"></i>
-                        <a href="calendar.html" class="btn">Check it Out</a>
-                    </div>
-                </section>
+
+                    <script src="js-files/calendar-modal-script.js"></script>
+                </div>
+                <div class="box2">
+                    <h2>Check out the Podcast</h2>
+                    <h2>(Coming Soon)</h2>
+                    <i class="fas fa-microphone fa-4x"></i>
+                    <a href="content.html" class="btn">Learn More</a>
+                </div>
+                <div class="box3">
+                    <h2>Check Out Useful Resources</h2>
+                    <i class="fas fa-toolbox fa-4x"></i>
+                    <a href="resources.html" class="btn">Take a Look</a>
+                </div>
+            </section>
         </div>
     </main>
     <!-- Footer content -->
