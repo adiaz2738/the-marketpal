@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c2674f1e9.js" crossorigin="anonymous"></script>
-    <title>Blog</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/blog-style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/blog-post-style.css">
 </head>
 <body>
     <!-- Header -->
@@ -25,44 +25,20 @@
             </div>
             <nav class="nav-bar">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="analysis.html">Stock Analysis</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../portfolio.html">Portfolio</a></li>
+                    <li><a href="../analysis.html">Stock Analysis</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
                 </ul>
             </nav>
         </div>
-        <a href="support.html" class="btn">Support</a>
+        <a href="../support.html" class="btn">Support</a>
     </header>
 
     <!-- Main content -->
     <main>
-        <div class="wrapper">
-            <section class="blog-overview-container">
-                <h3>The Bull Blog</h3>
-                <p>New blogs every Friday. I talk about events that happened throughout the week, company earnings, my thoughts on the market</p>
-            </section>
-            <section class="blog-links">
-                <div class="blog-content">
-                    <img src="img/stock-exchange-board.jpg" alt="New York Stock Exchange">
-                    <h3>Welcome to the Bull Blog</h3>
-                    <p>5/15/2020</p>
-                    <p>This is a short introduction on what this blog is all about.</p>
-                    <a href="blog-posts/welcome-blog.html">Read More</a>
-                </div>
-                <hr>
-                
-                <!-- 
-                <div class="blog-content">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
-                </div>
-                <hr>
-                 -->
-            </section>
-        </div>
+        
     </main>
 
         <!-- Footer content -->

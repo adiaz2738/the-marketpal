@@ -1,0 +1,46 @@
+main{
+    height: 800px;
+}
+
+.blog-post-content{
+    display: block;
+    margin: 40px auto;
+}
+
+.title{
+    font-family: "Lato";
+    font-size: 35px;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.date{
+    font-family: "Georgia";
+    font-size: 12px;
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+}
+
+.author{
+    font-family: "Georgia";
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.blog-container{
+    display: block;
+    font-family: "Georgia";
+    font-size: 16px;
+    line-height: 35px;
+    padding: 20px 0px;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .blog-post-content{
+        display: block;
+        width: 800px;
+        margin: 40px auto;
+    }
+}

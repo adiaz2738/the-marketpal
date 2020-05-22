@@ -1,3 +1,18 @@
+/* Temporary styling for placeholder text */
+.more-coming-soon{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.internal-resources-wrapper{
+    height: auto;
+}
+
+/* End to temporary styling */
+/* Make sure to remove comments off original css styling for container */
+
 .resources{
     display: block;
     margin: 40px auto;
@@ -26,8 +41,8 @@
 /* Internal resources */
 .internal-resources-wrapper{
     display: block;
-    height: 800px;
-    border: black 1px solid;
+    /* height: 800px; */
+    /* border: black 1px solid; */
     border-radius: 10px;
     overflow-y: auto;
 }
@@ -85,6 +100,7 @@
     font-size: 15px;
     padding-top: 10px;
     color: black;
+    line-height: 20px;
 }
 
 .resource-info img{
@@ -96,9 +112,9 @@
     .internal-resources-wrapper{
         display: block;
         width: 850px;
-        height: 800px;
+        /* height: 800px; */
         margin: 0 auto;
-        border: black 1px solid;
+        /* border: black 1px solid; */
         border-radius: 10px;
         overflow-y: auto;
     }
@@ -134,7 +150,7 @@
     
     .resource-info{
         display: grid;
-        height: 160px;
+        height: 180px;
         width: 100%;
         grid-template-columns: 1fr 250px;
         border-radius: 5px;
