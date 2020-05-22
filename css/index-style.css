@@ -9,11 +9,11 @@
 
 .bg-image{
 	position: absolute;
-	background: white url('../img/dual-chart-photo.png');
+	background: white url('../img/chart-photo.png');
 	background-position-y: 9%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100%;
+	width: 90%;
 	height: 450px;
     z-index: -1;
     opacity: 0.5;
