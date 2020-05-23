@@ -19,7 +19,7 @@
         <div class="logo-nav">
             <div id="header-logo" class="header-logo">
                 <a href="index.html">
-                    <h1>The <span>Marketpal</span></h1>
+                    <h1>The <span>MarketPal</span></h1>
                 </a>
             </div>
             <nav class="nav-bar">
