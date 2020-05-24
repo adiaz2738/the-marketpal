@@ -46,6 +46,11 @@
                 <div class="blog-container">
                     
                 </div>
+                <div id="resources">
+                    <h3></h3>
+                    <p></p>
+                    <a href="#"></a>
+                </div>
             </section>
         </div>
     </main>
