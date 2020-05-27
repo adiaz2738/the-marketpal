@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="195.49mm" height="106.45mm" version="1.1" viewBox="0 0 195.49 106.45" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-7.257 -95.277)">
+  <g>
+   <rect x="38.818" y="105.52" width="10.052" height="39.385" fill="#de0000" stroke="#000" stroke-dasharray="0.541613, 0.541613" stroke-linecap="square" stroke-width=".54161" style="paint-order:markers stroke fill"/>
+   <rect x="43.692" y="96.891" width=".30462" height="8.6324" style="paint-order:markers stroke fill"/>
+   <rect x="43.692" y="145.18" width=".30462" height="8.6324" style="paint-order:markers stroke fill"/>
+   <rect x="56.472" y="133.48" width="10.052" height="21.728" fill="#de0000" stroke="#000" stroke-dasharray="0.402279, 0.402279" stroke-linecap="square" stroke-width=".40228" style="paint-order:markers stroke fill"/>
+   <rect x="61.346" y="128.72" width=".30462" height="4.7622" style="paint-order:markers stroke fill"/>
+   <rect x="61.346" y="155.38" width=".30462" height="13.617" style="paint-order:markers stroke fill"/>
+   <rect x="74.237" y="164.36" width="10.052" height="9.39" fill="#de0000" stroke="#000" stroke-dasharray="0.264456, 0.264456" stroke-linecap="square" stroke-width=".26446" style="paint-order:markers stroke fill"/>
+   <rect x="79.11" y="157.94" width=".30462" height="6.4167" style="paint-order:markers stroke fill"/>
+   <rect x="79.11" y="173.92" width=".30462" height="23.532" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-120.29" y="108.03" width="10.052" height="39.385" fill="#00c000" stroke="#000" stroke-dasharray="0.541613, 0.541613" stroke-linecap="square" stroke-width=".54161" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-115.42" y="99.395" width=".30462" height="8.6324" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-115.42" y="147.68" width=".30462" height="8.6324" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-101.89" y="147.64" width="10.052" height="17.023" fill="#00c000" stroke="#000" stroke-dasharray="0.356072, 0.356072" stroke-linecap="square" stroke-width=".35607" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-97.011" y="134.42" width=".30462" height="13.225" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-97.011" y="164.8" width=".30462" height="3.7635" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-137.21" y="147.08" width="10.052" height="11.898" fill="#de0000" stroke="#000" stroke-dasharray="0.29768, 0.29768" stroke-linecap="square" stroke-width=".29768" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-132.33" y="137.84" width=".30462" height="9.2435" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-132.33" y="159.08" width=".30462" height="11.444" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-151.95" y="158.22" width="10.052" height="36.543" fill="#00c000" stroke="#000" stroke-dasharray="0.521701, 0.521701" stroke-linecap="square" stroke-width=".5217" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-147.07" y="147.46" width=".30462" height="10.764" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-147.07" y="194.95" width=".30462" height="5.1179" style="paint-order:markers stroke fill"/>
+  </g>
+  <path d="m8.2032 97.258h190.12" fill="none" stroke="#000" stroke-width=".26079px"/>
+  <path d="m7.2583 200.08h190.12" fill="none" stroke="#000" stroke-width=".26079px"/>
+  <g>
+   <rect transform="scale(-1,1)" x="-33.149" y="113.6" width="10.052" height="5.6145" fill="#00c000" stroke="#000" stroke-dasharray="0.204491, 0.204491" stroke-linecap="square" stroke-width=".20449" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-28.275" y="109.24" width=".30462" height="4.362" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-28.275" y="119.26" width=".30462" height="5.4003" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-18.109" y="124.82" width="9.9846" height="12.13" fill="#00c000" stroke="#000" stroke-dasharray="0.299553, 0.299553" stroke-linecap="square" stroke-width=".29955" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-13.269" y="120.39" width=".30462" height="4.362" style="paint-order:markers stroke fill"/>
+   <rect transform="scale(-1,1)" x="-13.268" y="137.05" width=".30256" height="11.667" style="paint-order:markers stroke fill"/>
+  </g>
+  <path d="m8.1246 124.82 35.872-27.932" fill="none" stroke="#000" stroke-width=".26079px"/>
+  <path d="m18.109 136.95 20.709 7.9561" fill="none" stroke="#000" stroke-width=".26079px"/>
+  <g>
+   <rect x="158.9" y="147.12" width="10.052" height="32.019" fill="#de0000" stroke="#000" stroke-dasharray="0.488341, 0.488341" stroke-linecap="square" stroke-width=".48834" style="paint-order:markers stroke fill"/>
+   <rect x="163.78" y="140.66" width=".30462" height="6.4568" style="paint-order:markers stroke fill"/>
+   <rect x="163.78" y="179.75" width=".30462" height="10.107" style="paint-order:markers stroke fill"/>
+   <rect x="175.91" y="126.23" width="10.052" height="33.149" fill="#00c000" stroke="#000" stroke-dasharray="0.496886, 0.496886" stroke-linecap="square" stroke-width=".49689" style="paint-order:markers stroke fill"/>
+   <rect x="180.79" y="117.53" width=".30462" height="8.6982" style="paint-order:markers stroke fill"/>
+   <rect x="180.79" y="160" width=".30462" height="16.958" style="paint-order:markers stroke fill"/>
+   <rect x="192.58" y="111.53" width="9.9835" height="17.643" fill="#00c000" stroke="#000" stroke-dasharray="0.361256, 0.361256" stroke-linecap="square" stroke-width=".36126" style="paint-order:markers stroke fill"/>
+   <rect x="197.42" y="105.04" width=".30462" height="6.4167" style="paint-order:markers stroke fill"/>
+   <rect x="197.42" y="129.5" width=".30253" height="18.753" style="paint-order:markers stroke fill"/>
+  </g>
+  <path d="m197.42 105.04-27.397 15.664 27.398 8.7974" fill="none" stroke="#000" stroke-width=".26079px"/>
+  <ellipse cx="116.17" cy="178.35" rx="13.502" ry="19.999" fill="none" stroke="#000" stroke-dasharray="0.986061, 0.986061" stroke-linecap="square" stroke-width=".98606" style="paint-order:markers stroke fill"/>
+ </g>
+</svg>
